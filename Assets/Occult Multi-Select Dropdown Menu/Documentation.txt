@@ -1,0 +1,55 @@
+Multi-Selection Supporting Dropdown Menu for Unity
+Version: 1.3r
+Documentation Version: 1.2r
+
+Are you using my product in your game? 
+Please let me know! Check out the "Contact Us" Section at the bottom and shoot me a line! (Or a Tweet). I would love to keep a running tally of what games use it.
+
+
+Did you pirate my product? 
+That sucks man. I'd really appreciate it if you could throw a couple bucks out for it on the Asset Store. 
+It really isn't that much money. (5$ or so.). It means I can make the next one.
+
+
+Setup:
+Import the Package into your project. That's it. We've done the rest of the work for you! 
+
+Getting Values Via C#:
+Add: Using Occult.UI; to the top of the script you wish to interface with the Multi-Selection Dropdown Component
+List<int> selectedIndices = GetComponent<Occult.UI.MultiSelectionDropdown>().value;
+The list will give you the selected indexes of the list.
+
+Example:
+If you have a Multi-Selection Dropdown with the following Configuration:
+Option A
+Option B
+Option C
+
+And you have selected both Option A and Option C, the values list will contain: 0, and 2
+
+Setting the Display Values:
+
+To set the Label displayed when the Dropdown Box contains Multiple Values:
+dropdownComponent.SetMultipleDisplayString("Multiple Values Selected");
+
+To set the Label displayed when the Dropdown Box contains Zero Values:
+dropdownComponent.SetZeroDisplayString("Zero Values Selected");
+
+
+Commonly Asked Issues and Questions: (Asked during testing)
+Issue: "I can't figure out how to add it to the canvas!"
+Answer: Right click on the Canvas, go to UI, and select "Multi-Selection Dropdown".
+
+Issue: "How do I add values to the dropdown box?"
+Answer: The Multi-Selection Dropdown box is constructed indentically to the Unity Dropdown, you can add new options under the "Options" foldout.
+
+Question: "Can I set the current value of the dropdown via code?"
+Answer: Yes. .GetComponent<Occult.UI.MultiSelectDropdown> ().value = new List<int>{0,1};
+
+Question: "Does it support the Unity Event System?"
+Answer: Yep! It supports OnValueChanged, sending the index of the changed item on the list.
+
+
+Contact Us:
+Email: OccultSoftworks@Gmail.com. Tag the email as "Multi-Selection Dropdown" and it will send me an alert.
+Twitter: @OccultSoftworks

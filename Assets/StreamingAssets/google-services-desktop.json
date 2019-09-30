@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "393112109754",
+    "firebase_url": "https://teacher-app-test.firebaseio.com",
+    "project_id": "teacher-app-test",
+    "storage_bucket": "teacher-app-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393112109754:android:9cccb833a51e565c",
+        "android_client_info": {
+          "package_name": "com.endeavour.buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393112109754-3g4g5ook3rteqkaaie3pj8gk5o1sj1hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoGyoiH9OuksHoXt1KwxrCl12tGar5T88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

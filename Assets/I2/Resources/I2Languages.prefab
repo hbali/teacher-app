@@ -1,0 +1,912 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1981917964618292}
+  m_IsPrefabParent: 1
+--- !u!1 &1981917964618292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4301292089736488}
+  - component: {fileID: 114793273568423946}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4301292089736488
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981917964618292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114793273568423946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981917964618292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d395768917672414794dd26a2c3f3594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Google_WebServiceURL: https://script.google.com/macros/s/AKfycbxfQzfLEEc8V3gYSC1MuMKuFlAHbdVGLj9KyUhx1TIFv94rwrM/exec
+  Google_SpreadsheetKey: 1zpt8eWQ8uGVcdAyFG7WgJX2kGNQhtVb87pjNo6Jc484
+  Google_SpreadsheetName: I2Loc Teacher app Localization
+  Google_LastUpdatedVersion: 1525899579221
+  GoogleUpdateFrequency: 3
+  GoogleUpdateDelay: 5
+  mTerms:
+  - Term: Settings
+    TermType: 0
+    Description: 
+    Languages:
+    - "Be\xE1ll\xEDt\xE1sok"
+    - Settings
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Search
+    TermType: 0
+    Description: 
+    Languages:
+    - "Keres\xE9s"
+    - Search
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Rating
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC9rt\xE9kel\xE9s"
+    - Rating
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: success_rate
+    TermType: 0
+    Description: 
+    Languages:
+    - "Sikeres \xE9rt\xE9kel\xE9s!"
+    - Success rate!
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: unsuccess_rate
+    TermType: 0
+    Description: 
+    Languages:
+    - "Sikertelen \xE9rt\xE9kel\xE9s. Valamilyen hiba keletkezett, pr\xF3b\xE1ld meg
+      \xFAjra!"
+    - Rate unsuccessful. Some problem occured, please try again.
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: error_email_format
+    TermType: 0
+    Description: 
+    Languages:
+    - "Helytelen email c\xEDm."
+    - Please enter a valid email address
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: teacher_doesnt_exist
+    TermType: 0
+    Description: 
+    Languages:
+    - "Nem l\xE9tezik tan\xE1r ezzel a Facebook felhaszn\xE1l\xF3val."
+    - Teacher with this Facebook does not exist
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: student_doesnt_exist
+    TermType: 0
+    Description: 
+    Languages:
+    - "Nem l\xE9tezik di\xE1k ezzel a Facebook felhaszn\xE1l\xF3val."
+    - Student with this Facebook does not exist
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: success_register
+    TermType: 0
+    Description: 
+    Languages:
+    - "Sikeres regisztr\xE1ci\xF3!"
+    - Register successful!
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: click_button_to_login
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC9rints meg a lenti gombot, hogy bejelentkezz."
+    - Tap the button below to login to the app
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: account_already_exists
+    TermType: 0
+    Description: 
+    Languages:
+    - "M\xE1r l\xE9tezik felhaszn\xE1l\xF3 ezzel a Facebook-kal. Jelentkezz be."
+    - Account already exists with this facebook. Please login
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: login
+    TermType: 0
+    Description: 
+    Languages:
+    - "Bejelentkez\xE9s"
+    - Login
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Student
+    TermType: 0
+    Description: 
+    Languages:
+    - "Di\xE1k"
+    - Student
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Teacher
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tan\xE1r"
+    - Teacher
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Create an account
+    TermType: 0
+    Description: 
+    Languages:
+    - "Regisztr\xE1ci\xF3"
+    - Create an account
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: register_description
+    TermType: 0
+    Description: 
+    Languages:
+    - "Buddy For Study egy alkalmaz\xE1s mely seg\xEDt megk\xF6nny\xEDteni az egyetemi
+      \xE9letet. Ak\xE1r tan\xE1r vagy \xE9s tov\xE1bb akarod adni a tud\xE1sod, vagy
+      di\xE1k \xE9s sz\xFCks\xE9ged lenne egy mag\xE1ntan\xE1rra. Keress tan\xE1rokat
+      r\xE9szletes keres\u0151nkkel, \xE9rt\xE9keld \u0151ket, add hozz\xE1 a kedvencekhez!"
+    - Buddy For Study is an application for both teachers to pass on your knowledge
+      and students who struggle with some subjects. Find a teacher for your needs,
+      save them to your favourites and even rate them after your session with them!
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Connect with facebook
+    TermType: 0
+    Description: 
+    Languages:
+    - "Csatlakoz\xE1s"
+    - Connect
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Register as teacher
+    TermType: 0
+    Description: 
+    Languages:
+    - "Regisztr\xE1ci\xF3 tan\xE1rk\xE9nt"
+    - Register as teacher
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Male
+    TermType: 0
+    Description: 
+    Languages:
+    - "F\xE9rfi"
+    - Male
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Female
+    TermType: 0
+    Description: 
+    Languages:
+    - "N\u0151"
+    - Female
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Email address
+    TermType: 0
+    Description: 
+    Languages:
+    - "Email c\xEDm"
+    - Email address
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Messenger name
+    TermType: 0
+    Description: 
+    Languages:
+    - "Messenger felhaszn\xE1l\xF3n\xE9v"
+    - Messenger name
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Register
+    TermType: 0
+    Description: 
+    Languages:
+    - "Regisztr\xE1ci\xF3"
+    - Register
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: messenger_help_first
+    TermType: 0
+    Description: 
+    Languages:
+    - "A di\xE1kok k\xF6nnyebben fognak veled kapcsolatba l\xE9pni, ha megadod a Messenger
+      nevedet. Ez a r\xF6vid t\xE1j\xE9koztat\xF3 seg\xEDt megmutatni, hogy szerezd
+      meg.\n\nNyisd meg a Messenger alkalmaz\xE1st \xE9s kattints a profilk\xE9pedre
+      a jobb fels\u0151 sarokban. (iOS \xE9s Android k\xE9sz\xFCl\xE9keken k\xFCl\xF6nb\xF6zhet)"
+    - "Students will be able to easily contact you if you provide your messenger name.
+      This tutorial will show you how to obtain it. \n\nPlease open your messenger
+      application and click on your profile picture in the top right corner (may differ
+      between Android and iOS devices)"
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: messenger_help_second
+    TermType: 0
+    Description: 
+    Languages:
+    - "M\xE1sold ki a felhaszn\xE1l\xF3neved innen \xE9s illeszd be a Buddy For Study
+      regisztr\xE1ci\xF3s panelbe.\n\nHa nem akarod megosztani a Messenger felhaszn\xE1l\xF3nevedet,
+      a di\xE1kok email c\xEDmen kereszt\xFCl el tudnak \xE9rni."
+    - 'Copy your username from this panel and paste into Buddy For Study register
+      panel.
+
+
+      If you don''t want to share your Messenger username, students will still be
+      able to contact you through email.'
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Open messenger
+    TermType: 0
+    Description: 
+    Languages:
+    - "Messenger megnyit\xE1sa"
+    - Open messenger
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Choose universities
+    TermType: 0
+    Description: 
+    Languages:
+    - "V\xE1lassz egyetemeket"
+    - Choose universities
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Choose subjects
+    TermType: 0
+    Description: 
+    Languages:
+    - "V\xE1lassz tant\xE1rgyakat"
+    - Choose subjects
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Check out ratings
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC9rt\xE9kel\xE9sek megtekint\xE9se"
+    - Check out ratings
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Auto login
+    TermType: 0
+    Description: 
+    Languages:
+    - "Automata bejelentkez\xE9s"
+    - Auto login
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Arial
+    TermType: 0
+    Description: 
+    Languages:
+    - Arial
+    - Arial
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Add new subject
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tant\xE1rgyak szerkeszt\xE9se"
+    - Edit subjects
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gender
+    TermType: 0
+    Description: 
+    Languages:
+    - Nem
+    - Gender
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Favourites
+    TermType: 0
+    Description: 
+    Languages:
+    - Kedvencek
+    - Favourites
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Language
+    TermType: 0
+    Description: 
+    Languages:
+    - Nyelv
+    - Language
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Off
+    TermType: 0
+    Description: 
+    Languages:
+    - Ki
+    - Off
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: On
+    TermType: 0
+    Description: 
+    Languages:
+    - Be
+    - On
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Write something about the teacher
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xCDrj valamit a tan\xE1rr\xF3l"
+    - Write something about the teacher
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Send to messenger
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xDCzenetk\xFCld\xE9s Messengeren"
+    - Send to messenger
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Send email
+    TermType: 0
+    Description: 
+    Languages:
+    - "Email k\xFCld\xE9se"
+    - Send email
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Send anonymous data for analytics
+    TermType: 0
+    Description: 
+    Languages:
+    - "N\xE9vtelen statisztik\xE1k k\xFCld\xE9se"
+    - Send anonymous data for analytics
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Rate
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC9rt\xE9kel\xE9s"
+    - Rate
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Profile
+    TermType: 0
+    Description: 
+    Languages:
+    - Profil
+    - Profile
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Universities
+    TermType: 0
+    Description: 
+    Languages:
+    - Egyetemek
+    - Universities
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Subjects
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tant\xE1rgyak"
+    - Subjects
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: no_subjects_reg
+    TermType: 0
+    Description: 
+    Languages:
+    - "Legal\xE1bb egy t\xE1rgyat adj meg!"
+    - Add at least one subject!
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: This teacher hasn't received any rating yet. Sorry :(
+    TermType: 0
+    Description: 
+    Languages:
+    - "Nem \xE9rkezett m\xE9g \xE9rt\xE9kel\xE9s. Sajn\xE1ljuk :("
+    - No rating received yet. Sorry :(
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Enter subject name
+    TermType: 0
+    Description: 
+    Languages:
+    - Enter text...
+    - Enter subject name...
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Tap here to add subject
+    TermType: 0
+    Description: 
+    Languages:
+    - "B\xF6kj ide t\xE1rgy hozz\xE1ad\xE1s\xE1hoz"
+    - Tap here to add subject
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Add subjects
+    TermType: 0
+    Description: 
+    Languages:
+    - "Ment\xE9s"
+    - Save
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Please try again later
+    TermType: 0
+    Description: 
+    Languages:
+    - "Pr\xF3b\xE1ld \xFAjra k\xE9s\u0151bb"
+    - Please try again later
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Something went wrong
+    TermType: 0
+    Description: 
+    Languages:
+    - "Valami nem m\u0171k\xF6dik. "
+    - Something went wrong
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: empty_rate_text
+    TermType: 0
+    Description: 
+    Languages:
+    - "K\xE9rlek \xEDrj valamit a tan\xE1rr\xF3l!"
+    - Please write something about the teacher!
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: fail_subjects_added
+    TermType: 0
+    Description: 
+    Languages:
+    - "Nem siker\xFClt hozz\xE1adni a t\xE1rgyakat"
+    - Adding new subjects failed.
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: success_subjects_added
+    TermType: 0
+    Description: 
+    Languages:
+    - "Sikeresen hozz\xE1adt\xE1l \xFAj t\xE1rgyakat"
+    - Successfully added new subject!
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: rate_yourself
+    TermType: 0
+    Description: 
+    Languages:
+    - "Magadat nem tudod \xE9rt\xE9kelni."
+    - You can't rate yourself. Sorry.
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: logging_in
+    TermType: 0
+    Description: 
+    Languages:
+    - "Bejelentkez\xE9s..."
+    - Logging in...
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Hungarian
+    TermType: 0
+    Description: 
+    Languages:
+    - Magyar
+    - Hungarian
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: English
+    TermType: 0
+    Description: 
+    Languages:
+    - Angol
+    - English
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Preparedness
+    TermType: 0
+    Description: 
+    Languages:
+    - "Felk\xE9sz\xFClts\xE9g"
+    - Preparedness
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Explanatory Ability
+    TermType: 0
+    Description: 
+    Languages:
+    - "Magyar\xE1z\xF3k\xE9szs\xE9g"
+    - Explanatory Ability
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Price Value Ratio
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC1r-\xE9rt\xE9k ar\xE1ny"
+    - Price Value Ratio
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Recommended
+    TermType: 0
+    Description: 
+    Languages:
+    - "Aj\xE1nlotts\xE1g"
+    - Recommended
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: report_comment
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC9rt\xE9kel\xE9s jelent\xE9se"
+    - Report rating
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: login_introduction
+    TermType: 0
+    Description: 
+    Languages:
+    - "Ideiglenes verzi\xF3! \xDCdv\xF6z\xF6l a BuddyforStudy, ahol k\xF6nnyed\xE9n
+      megtal\xE1lhatod a\r\nSz\xE1modra megfelel\u0151 tan\xE1rt! Amennyiben m\xE9g
+      nem vagy tagja a BuddyforStudy k\xF6z\xF6ss\xE9gnek, az al\xE1bbi gombra kattintva
+      tudsz csatlakozni:\r"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: register_introduction
+    TermType: 0
+    Description: 
+    Languages:
+    - "Ideiglenes verzi\xF3! \xDCdv\xF6z\xF6l a BuddyforStudy, ahol k\xF6nnyed\xE9n
+      megtal\xE1lhatod a\r\nSz\xE1modra megfelel\u0151 tan\xE1rt! Amennyiben m\xE9g
+      nem vagy tagja a BuddyforStudy k\xF6z\xF6ss\xE9gnek, az al\xE1bbi gombra kattintva
+      tudsz csatlakozni:\r"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: messenger_info
+    TermType: 0
+    Description: 
+    Languages:
+    - "Regiszr\xE1ci\xF3 le\xEDr\xE1s.."
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Register as student
+    TermType: 0
+    Description: 
+    Languages:
+    - "Regisztr\xE1ci\xF3 di\xE1kk\xE9nt"
+    - Register as student
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: terms_conditions_long
+    TermType: 0
+    Description: 
+    Languages:
+    - terms_conditions_long
+    - Terms and conditions long
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Preparedness_description
+    TermType: 0
+    Description: 
+    Languages:
+    - "Mennyire \xE9rezted a tan\xE1rodat szakmailag felk\xE9sz\xFCltnek?"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Explanatory Ability_description
+    TermType: 0
+    Description: 
+    Languages:
+    - "Mennyire tudta a tan\xE1rod \xE9rthet\u0151en elmagyar\xE1zni az anyagot?"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Price Value Ratio_description
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC1r-\xC9rt\xE9k ar\xE1nyban mennyire felelt meg neked?"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Recommended_description
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xD6sszess\xE9g\xE9ben mennyire sz\xEDvesen aj\xE1nlan\xE1d m\xE1soknak?"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: rating_main_title
+    TermType: 0
+    Description: 
+    Languages:
+    - "Tan\xE1r \xE9rt\xE9kel\xE9se"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: search_no_result
+    TermType: 0
+    Description: 
+    Languages:
+    - "Nincs tal\xE1lat ezekkel a felt\xE9telekkel :("
+    - No results with these conditions :(
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Ratings
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC9rt\xE9kel\xE9sek"
+    - Ratings
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: rating_secondary_title
+    TermType: 0
+    Description: 
+    Languages:
+    - "(1-Egy\xE1ltal\xE1n nem; 5-Nagyon)"
+    - same in english
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: terms_conditions
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xC1SZF \xE9s Adatv\xE9delmi nyilatkozatot elolvstam \xE9s elfogadom"
+    - I have read and agree to terms and conditons
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: All
+    TermType: 0
+    Description: 
+    Languages:
+    - "\xD6sszesen"
+    - All
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: rating_choose_subject
+    TermType: 0
+    Description: 
+    Languages:
+    - "V\xE1laszd ki a tant\xE1rgyat"
+    - 'Choose subject '
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: OK
+    TermType: 0
+    Description: 
+    Languages:
+    - Rendben
+    - Okay
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  mLanguages:
+  - Name: Hungarian
+    Code: hu
+    Flags: 0
+  - Name: English
+    Code: en
+    Flags: 0
+  CaseInsensitiveTerms: 0
+  Assets: []
+  NeverDestroy: 1
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  OnMissingTranslation: 1
+  mTerm_AppName: 
+  Spreadsheet_LocalFileName: 
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8
